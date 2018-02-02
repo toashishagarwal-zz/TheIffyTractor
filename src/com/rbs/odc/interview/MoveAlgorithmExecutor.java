@@ -1,5 +1,13 @@
 package com.rbs.odc.interview;
 
+/**
+ * Enum: MoveAlgorithmExecutor
+ * This enum works on match() and execute() framework
+ * If the condition in match() is TRUE, execute() is called
+ * 
+ * @author ashish
+ *
+ */
 public enum MoveAlgorithmExecutor {
 	NORTH {
 		boolean match(String condition) {
